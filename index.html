@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fényertek | Hamarosan</title>
+  <title>Fényérték | Hamarosan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
@@ -90,6 +90,7 @@
       width: 100%;
       height: auto;
       display: block;
+      -webkit-filter: drop-shadow(0 14px 24px rgba(31, 26, 20, 0.18));
       filter: drop-shadow(0 14px 24px rgba(31, 26, 20, 0.18));
     }
 
@@ -201,6 +202,10 @@
         border-radius: 22px;
       }
 
+      h1 {
+        font-size: clamp(1.2rem, 6.2vw, 1.85rem);
+      }
+
       .logo-wrap {
         width: min(220px, 70vw);
       }
@@ -213,7 +218,7 @@
 
   <main class="card" role="main">
     <div class="logo-wrap">
-      <img src="fenyertek_logo.png" alt="Fényertek logo" />
+      <img src="fenyertek_logo.png" alt="Fényérték logo" />
     </div>
     <h1>Hamarosan</h1>
     <p>
